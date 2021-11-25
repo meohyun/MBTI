@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">MBTI</string>
+    <string name="app_name">MBTI 궁합</string>
+
+    <string name="title01">INFP</string>
+    <string name="desc01">
+
+    </string>
 </resources>
