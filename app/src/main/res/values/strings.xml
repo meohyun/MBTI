@@ -9,4 +9,8 @@
     <string name="Si">Si\n 내향 감각</string>
     <string name="Te">Te\n 외향 사고</string>
 
+    <string name="DescINFP">
+        자기중심적 / 배려 / 완벽주의자 / 낯가림
+    </string>
+
 </resources>

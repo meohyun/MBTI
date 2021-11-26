@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <Button
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="돌아가기"/>
+
 
         <TextView
             android:id ="@+id/title01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MBTI"
+            android:textStyle="bold"
+            android:text="INFP"
             android:textSize="30dp"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="180dp"/>
+
+        <TextView
+            android:id ="@+id/title02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="열정적인 중재자"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"/>
 
         <ImageView
             android:id="@+id/image01"
@@ -95,17 +115,35 @@
 
         </LinearLayout>
 
-
-        <TextView
-            android:id="@+id/desc01"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="180dp"
+        <LinearLayout
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="설명란"/>
+            android:layout_marginTop="10dp"
+            android:background="#FFE5CC"
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="주요 키워드"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/keyword01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="@string/DescINFP"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
     </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>
