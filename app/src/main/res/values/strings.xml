@@ -3,6 +3,10 @@
 
     <string name="title01">INFP</string>
     <string name="desc01">
-
     </string>
+    <string name="Fi">Fi\n 내향 감정</string>
+    <string name="Ne">Ne\n 외향 직관</string>
+    <string name="Si">Si\n 내향 감각</string>
+    <string name="Te">Te\n 외향 사고</string>
+
 </resources>

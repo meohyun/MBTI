@@ -40,22 +40,26 @@
 
                 <Button
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text ="주 기능"/>
                 <Button
+                    android:textSize="13dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text ="부 기능"/>
                 <Button
+                    android:textSize="13dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text ="3차 기능"/>
                 <Button
+                    android:textSize="13dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text ="열등 기능"/>
             </LinearLayout>
@@ -65,20 +69,28 @@
                 android:layout_height="wrap_content">
                 <Button
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="@string/Fi"/>
                 <Button
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="@string/Ne"/>
                 <Button
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="@string/Si"/>
                 <Button
                     android:layout_marginLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="@string/Te"/>
             </LinearLayout>
 
         </LinearLayout>
